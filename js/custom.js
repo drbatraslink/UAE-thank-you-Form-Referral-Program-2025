@@ -20,6 +20,7 @@
               <div class="col-12">
               <h3 class="mb-0">Reference Details</h3>
             </div>
+            
             <div class="col-md-6 form_colum_custom">
               <div class="form-group mt-md-2">
                 <label class="custom_lable_cls">Full Name*</label>
@@ -37,15 +38,29 @@
             </div>
             <div class="col-md-6 form_colum_custom">
               <div class="form-group">
-                <label class="custom_lable_cls">Location</label>
-                <input name="location[]" class="form-control" placeholder="Enter Your Location"> </div>
-            </div>
+               <label class="custom_lable_cls">Location</label>
+               <select class="form-control selectpicker citylist" id="location_0" name="location_0" data-live-search="true">
+                    <option value="">Select Location</option></select>              
+              </div>
+            </div> 
+              <div class="col-md-6 form_colum_custom mb-3">
+              <div class="form-group">
+               <label class="custom_lable_cls">Relation Type*</label>
+                <select class="relation form-control" id="relation_0">
+                <option value="">Select Relation</option>
+                <option value="3">Wife</option>
+                <option value="4">Husband</option>
+                <option value="8">Father</option>
+                <option value="9">Mother</option>
+                <option value="13">Daughter</option>
+                <option value="11">Son</option>
+                <option value="1">Friends</option>
+                <option value="24">Other</option>              
+              </select>             
+              </div>
+            </div> 
            
           
-        <div class="col-md-12 mt-2 mb-3">
-          <button type="button" class="btn btn-danger inputSubmit">Submit</button>
-          <button type="button" class="btn btn-danger inputRemove" data-id="ref_${counter}">Remove</button>
-        </div>
 
         </div>
           </div>
