@@ -2,7 +2,6 @@
 
 body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000;background-image: url(../images/bg-body.webp);background-repeat: no-repeat;background-size: cover;margin:auto; }
 *{font-family:Inter,sans-serif;font-weight:400}
-
 @media(max-width:600px){
 body{background-image:url(../images/bg-body-mob.webp);background-size:cover}
 }
@@ -12,19 +11,21 @@ p{font-weight:300}
 p span{font-weight:600;color:#1f4388}
 .treatment_all_heading_page{font-size:28px;color:#000;font-weight:500;margin-bottom:5px}
 .treatment_all_heading_page span{color:#1f4388;font-weight:700}
-.treatment_all_heading_page_head_treat {font-size: 21px;}
+.treatment_all_heading_page_head_treat{font-size:21px}
 @media(max-width:600px){
 .treatment_all_heading_page{font-size:20px}
-.treatment_all_heading_page_head_treat {font-size: 16px; text-align: center; }
+.treatment_all_heading_page_head_treat{font-size:16px;text-align:center}
 }
 header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.thank-you-msg-heading{font-size: 36px;font-weight: 500;color: #1f4388;}
-.thank-you-msg-heading span {font-weight: 800}
+.thank-you-msg-heading{font-size:36px;font-weight:500;color:#1f4388}
+.thank-you-msg-heading span{font-weight:800}
+.main_head_h3{font-size:28px}
+.heding_sub_h2_cls{font-size:32px}
 @media(max-width:600px){
-  .thank-you-msg-heading{font-size: 22px;font-weight: 500;color: #1f4388;}
+.thank-you-msg-heading{font-size:22px;font-weight:500;color:#1f4388}
+.heding_sub_h2_cls{font-size:24px}
+.main_head_h3{font-size:21px}
 }
-
-
 /*=====================================================================*/
 /* Book an Appointment Start CSS*/
 /*=====================================================================*/
@@ -64,33 +65,15 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .form_section_div_book_an_appoinment #evaluvationform .progress{height:20px}
 .form_section_div_book_an_appoinment #evaluvationform .progress-bar{background-color:#154778}
 .form_section_div_book_an_appoinment .fit-image{width:100%;object-fit:cover}
-  .action-button-two {
-    font-size: 16px;
-    width: 100%;
-    margin-bottom: 0;
-    height: calc(1.5em + .75rem + 2px);
-    line-height: 1.6;
-    color: #fff;
-    font-weight: 700;
-    border: none;
-    background: #1f4388;
-    border-radius: 50px;
-}
-.agree-condition {
-    font-weight: 400 !important;
-}
+.action-button-two{font-size:16px;width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;font-weight:700;border:none;background:#1f4388;border-radius:50px}
+.agree-condition{font-weight:400!important}
 @media(max-width:600px){
-.form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%;font-size:14px;}
-  .action-button-two {
-    font-size: 14px;
-}
+.form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%;font-size:14px}
+.action-button-two{font-size:14px}
 }
 @media(max-width:380px){
-.form_section_div_book_an_appoinment #evaluvationform .action-button-two {
-    font-size: 12px;
+.form_section_div_book_an_appoinment #evaluvationform .action-button-two{font-size:12px}
 }
-}
-
 .treatment_all_comm_div_new_book_an_appoinment.form_section_div{padding:20px 0;background-color:transparent;border-top:20px solid #0c4475;border-bottom:20px solid #0c4475}
 .treatment_all_comm_div_new_book_an_appoinment .form_custom_bg_testmonilas{background:0 0;padding:0}
 .treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom label{position:absolute;top:37%;left:28px;transform:translateY(-50%);font-size:16px!important;color:#757575;pointer-events:none;transition:all .15s ease-out}
@@ -120,14 +103,10 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .open-button{background-color:#1a75ac;font-size:21px;color:#fff;padding:15px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;text-decoration:none}
 .open-button a{text-decoration:none}
 .open-button:hover{color:#fff;text-decoration:none}
-.reference-group{width:95%; padding:20px 30px 10px;margin:20px auto;background:linear-gradient(0deg,rgba(255,255,255,.9) 0,rgba(255,255,255,.9) 100%);border-radius:20px}
+.reference-group{width:95%;padding:20px 30px 10px;margin:20px auto;background:linear-gradient(0deg,rgba(255,255,255,.9) 0,rgba(255,255,255,.9) 100%);border-radius:20px}
 @media(max-width:600px){
-  .reference-group{
-    margin-top: 10px;
-    padding: 20px 10px 10px 10px;
-  }
+.reference-group{margin-top:10px;padding:20px 10px 10px 10px}
 }
-
 /*==========================================*/
 /* Icon section css*/
 /*==========================================*/
@@ -149,110 +128,28 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos img{width: 30px}
 .treatment_all_comm_div.icon_without_bg_section p span{font-size:18px!important;font-weight:600}
 }
-
 /*==========================================*/
 /* List section css*/
 /*==========================================*/
 .tih_list_pointer_item_css{padding-inline-start:0px}
-.tih_list_pointer_item_css li{font-weight:300;font-size:16px;margin-bottom:5px; list-style: none;}
+.tih_list_pointer_item_css li{font-weight:300;font-size:16px;margin-bottom:5px;list-style:none}
 .tih_list_pointer_item_css li strong{font-weight:600;color:#1f4388}
-
-.inputSubmit{
-    height: calc(1.5em + .75rem + 2px);
-    font-weight: 700 !important;
-    font-size: 1em;
-    line-height: 1em;
-    background: #0c4679;
-    color: #fff !important;
-    border: 1px solid #0c4679 !important;
-    border-radius: 6px !important;
-    transition: .5s;
-    outline: 0 !important;
-}
-
-.inputRemove{
-    height: calc(1.5em + .75rem + 2px);
-    font-weight: 700 !important;
-    font-size: 1em;
-    line-height: 1em;
-    background: transparent;
-    color: #0c4679 !important;
-    border: 1px solid #0c4679 !important;
-    border-radius: 6px !important;
-    transition: .5s;
-    outline: 0 !important;
-}
-
-.inputSubmit:hover{
-  background: #0c4679;
-}
-
-.inputRemove:hover{
-  background: transparent;
-}
-
+.inputSubmit{height:calc(1.5em + .75rem + 2px);font-weight:700!important;font-size:1em;line-height:1em;background:#0c4679;color:#fff!important;border:1px solid #0c4679!important;border-radius:6px!important;transition:.5s;outline:0!important}
+.inputRemove{height:calc(1.5em + .75rem + 2px);font-weight:700!important;font-size:1em;line-height:1em;background:0 0;color:#0c4679!important;border:1px solid #0c4679!important;border-radius:6px!important;transition:.5s;outline:0!important}
+.inputSubmit:hover{background:#0c4679}
+.inputRemove:hover{background:0 0}
 /*=====================================================================*/
 /* Book An Appoinment Blue Icon box section css*/
 /*=====================================================================*/
-.treatment_all_comm_div.blue_icon_box_section_less_content {
-/*    margin-top: 50px*/
+.treatment_all_comm_div.blue_icon_box_section_less_content .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
+.treatment_all_comm_div.blue_icon_box_section_less_content p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.blue_icon_box_section_less_content p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section_less_content .content_box_why_pcos{display:flex;align-items:center}
+@media (max-width:1680px){
+.treatment_all_comm_div.blue_icon_box_sectio_less_content p{font-size:16px!important}
 }
-
-.treatment_all_comm_div.blue_icon_box_section_less_content .container {
-/*    padding: 40px;*/
-/*    background-color: #e0f3ff;*/
-/*    border-radius: 20px*/
-}
-
-.treatment_all_comm_div.blue_icon_box_section_less_content .icon_box_why {
-    width: 56px;
-    height: 56px;
-    padding: 10px;
-    margin-right: 12px;
-    background-color: #0c4679;
-    border-radius: 6px
-}
-
-.treatment_all_comm_div.blue_icon_box_section_less_content p {
-    width: 85%;
-    line-height: normal;
-    font-size: 18px!important;
-    font-weight: 300;
-    line-height: normal;
-    margin-bottom: 0
-}
-
-.treatment_all_comm_div.blue_icon_box_section_less_content p span {
-    font-size: 24px!important;
-    font-weight: 600
-}
-
-.treatment_all_comm_div.blue_icon_box_section_less_content .content_box_why_pcos {
-    display: flex;
-    align-items: center
-}
-
-@media (max-width: 1680px) {
-    .treatment_all_comm_div.blue_icon_box_sectio_less_content p {
-        font-size:16px!important
-    }
-}
-
-@media (max-width: 600px) {
-    .treatment_all_comm_div.blue_icon_box_section_less_content {
-/*        margin-top:30px*/
-    }
-
-    .treatment_all_comm_div.blue_icon_box_section_less_content .container {
-        padding: 30px 15px
-    }
-
-    .treatment_all_comm_div.blue_icon_box_section_less_content p {
-        width: 85%
-    }
-
-    .treatment_all_comm_div.blue_icon_box_section_less_content p span {
-        font-size: 18px!important;
-        font-weight: 600
-    }
+@media (max-width:600px){
+.treatment_all_comm_div.blue_icon_box_section_less_content .container{padding:30px 15px}
+.treatment_all_comm_div.blue_icon_box_section_less_content p{width:85%}
+.treatment_all_comm_div.blue_icon_box_section_less_content p span{font-size:18px!important;font-weight:600}
 }
