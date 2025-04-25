@@ -20,10 +20,10 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .thank-you-msg-heading{font-size:36px;font-weight:500;color:#1f4388}
 .thank-you-msg-heading span{font-weight:800}
 .main_head_h3{font-size:28px}
-.heding_sub_h2_cls{font-size:32px}
+.heding_sub_h2_cls{font-size:32px; font-weight: 700}
 @media(max-width:600px){
 .thank-you-msg-heading{font-size:22px;font-weight:500;color:#1f4388}
-.heding_sub_h2_cls{font-size:24px}
+.heding_sub_h2_cls{font-size:22px}
 .main_head_h3{font-size:21px}
 }
 /*=====================================================================*/
@@ -66,6 +66,7 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .form_section_div_book_an_appoinment #evaluvationform .progress-bar{background-color:#154778}
 .form_section_div_book_an_appoinment .fit-image{width:100%;object-fit:cover}
 .action-button-two{font-size:16px;width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;font-weight:700;border:none;background:#1f4388;border-radius:50px}
+.action-button-two a{color: #ffffff; font-weight: 600; text-decoration: none;}
 .agree-condition{font-weight:400!important}
 @media(max-width:600px){
 .form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%;font-size:14px}

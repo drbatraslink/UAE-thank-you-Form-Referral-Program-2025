@@ -28,76 +28,65 @@
       </div>
     </div>
   </header>
-  <section class="form_section_div_book_an_appoinment treatment_all_comm_div_new_book_an_appoinment  mb-md-5" id="form_open_down_sec">
-    <div class="container pt-md-5 mb-md-5 mb-3">
+   <section class="mt-3">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12 pl-md-0 pr-md-0">
-          <!-- <p><span>Together In Health</span> is a movement where you take the lead in spreading good health, empowering others, and creating a future free from illness. </p>
-          <p>By joining <span>Together In Health</span>, you pledge to become a Health Ambassador, guiding friends, family, and community members towards natural, holistic healing. Every step you take brings us closer to <span>#BimariMuktBharat</span>-a nation where good health is not a privilege but a shared gift. Be the change. Gift good health today.</p> -->
-          <p>We are delighted to welcome you to <span>Together In Health</span> - a movement where you take the lead in spreading wellness, empowering your loved ones and creating a future free from illness.</p>
-          <p>As a <span>Together In Health</span> Ambassador, you can play a vital role in guiding your family, friends and community toward natural, holistic healing. Every step you take brings us closer to a community where good health is a shared gift.</p>
-        </div>
-        <div class="col-md-4 pl-md-0 pr-md-0"> <img src="images/banner-model.webp" alt="banner-model" class="img-fluid banner-form-img" width="" height=""> </div>
-        <div class="col-md-8 form_bg_new_for_rp">
-          <form id="evaluvationform" class="form_custom_bg_testmonilas">
-            <div class="row ">
-              <!-- <div class="col-md-12">
-                <h1 class="treatment_all_heading_page text-center mb-1">Become a Part of <br class="d-block d-md-none"><span>"Together in Health"</span> </h1> 
-                <p class="mb-3">(Get Free Blood Test for your Loved Ones on Sign-up)</p>
-              </div> -->
-              <div class="col-md-12">
-                <h1 class="treatment_all_heading_page text-center mb-1">Become a Part of <br class="d-block d-md-none"><span>"Together in Health"</span> </h1>
-                <!-- <p class="mb-3">(Get Free Blood Test for your Loved Ones on Sign-up)</p>  -->
-              </div>
-              <div class="col-md-12 text-left">
-                <h2 class="treatment_all_heading_page_head_treat mb-md-3 mb-2">How to become a Together in Health Ambassador in 2 Simple Steps?</h2>
-                <ul class="tih_list_pointer_item_css">
-                  <li><strong>Step 1 :</strong> Register to become a part of <strong>"Together in Health"</strong> + Get Free Blood Test for your Loved Ones</li>
-                  <li><strong>Step 2 :</strong> Start referring your <strong>Loved Ones</strong> in the form below</li>
-                </ul>
-              </div>
-              <!-- <div class="col-lg-6 col-md-6 testmonilas_form_custom">
-                <div class="form-group">
-                  <input id="yourname" name="yourname" class="form-control">
-                  <label for="yourname">Enter Your Name</label>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 testmonilas_form_custom">
-                <div class="form-group">
-                  <input id="yourname3" name="yourname" class="form-control">
-                  <label for="yourname3">Enter Your Mobile No</label>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 testmonilas_form_custom">
-                <div class="form-group">
-                  <input id="yourname" name="yourname" class="form-control">
-                  <label for="yourname">Enter Your Email ID</label>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 testmonilas_form_custom">
-                <div class="form-group ">
-                  <input id="yourname3" name="yourname" class="form-control">
-                  <label for="yourname3">Enter Patient ID</label>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 testmonilas_form_custom">
-                <div class="form-group">
-                  <input id="yourname" name="yourname" class="form-control">
-                  <label for="yourname">Enter Clinic Name</label>
-                </div>
-              </div> -->
-              <div class="col-md-12 text-left">
-                <div class="checkbox check_box_lable">
-                  <label class="agree-condition">
-                    <input type="checkbox" checked> I would like Dr&nbsp;Batra’s<sup>®</sup> and its representatives to send me communication over SMS / WhatsApp / Call / Email</label>
-                </div>
-              </div>
-              <div class="col-lg-8 offset-lg-2">
-                <button type="button" id="savedata" name="next" class="next action-button-two"><a href="form.html">Click here to be a part of "Together in Health"</a></button>
-              </div>
+       <div class="col-md-12 pl-0 pr-0">
+         <div id="req_input">
+          <div class="row ptmd-1 reference-group" id="consultForm">
+              <div class="col-12">
+              <h3 class="mb-md-0 mb-2 main_head_h3">Reference Details</h3>
             </div>
-          </form>
+            <div class="col-md-6 form_colum_custom">
+              <div class="form-group mt-md-2">
+                <label class="custom_lable_cls">Full Name*</label>
+                <input name="yourname[]" class="form-control" placeholder="Enter Your Full Name"> </div>
+            </div>
+            <div class="col-md-6 form_colum_custom">
+              <div class="form-group mt-md-2">
+                <label class="custom_lable_cls">Mobile Number*</label>
+                <input name="mobile[]" class="form-control" placeholder="Enter Your Mobile No"> </div>
+            </div>
+            <div class="col-md-6 form_colum_custom">
+              <div class="form-group">
+                <label class="custom_lable_cls">Email ID</label>
+                <input name="email[]" class="form-control" placeholder="Enter Your Email ID"> </div>
+            </div>
+            <div class="col-md-6 form_colum_custom">
+              <div class="form-group">
+               <label class="custom_lable_cls">Location</label>
+               <select class="form-control selectpicker citylist" id="location_0" name="location_0" data-live-search="true">
+                    <option value="">Select Location</option></select>              
+              </div>
+            </div> 
+              <div class="col-md-6 form_colum_custom mb-3">
+              <div class="form-group">
+               <label class="custom_lable_cls">Relation Type*</label>
+                <select class="relation form-control" id="relation_0">
+                <option value="">Select Relation</option>
+                <option value="3">Wife</option>
+                <option value="4">Husband</option>
+                <option value="8">Father</option>
+                <option value="9">Mother</option>
+                <option value="13">Daughter</option>
+                <option value="11">Son</option>
+                <option value="1">Friends</option>
+                <option value="24">Other</option>              
+              </select>             
+              </div>
+            </div> 
+         <!--    <div class="col-md-12 mt-2 mb-3">
+              <button type="button" class="btn btn-danger inputSubmit">Submit</button>
+              <button type="button" class="btn btn-danger inputRemove" data-id="ref_${counter}">Remove</button>
+            </div> -->
+          </div>
         </div>
+       </div> 
+        <div class="col-md-3 col-6 mx-auto">
+          <button type="button" id="savedata" name="next" class="next action-button-two"><a href="thank-tou-page.html">Sumbit</a></button>
+        </div>
+        <div class="col-12 mx-auto text-center pl-0 pr-0 mt-2 mb-md-2 ">
+          <input type="button" id="addmore" value="+ Add Reference" class="btn btn-form btn-verify d-block"> </div>
       </div>
     </div>
   </section>
